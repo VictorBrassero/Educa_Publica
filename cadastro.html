@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulário</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script type="text/javascript" src="_js/validacao.js"></script>
+</head>
+
+<body face="Verdana"  style="background-color:#F0F8FF">
+	<h3 style="text-align: center; color:rgb(0, 123, 255)">Cadastro de Usuario</h3> 
+    <div class="container">
+	<form method="post" action="cadastrar.php">
+			<p tyle="color:black"> <b> Nome: </b> </p>
+				<input  type="text"  class="form-control" name="nome" placeholder="seu nome" id="nome"> </br>
+			
+			<p style="color:black"> <b> Email: </b> </p>
+				<input type="email" class="form-control" name="email" placeholder="seu email" id="email"> </br> 	
+			
+			<p style="color:black"> <b> Senha: </b> </p>
+				<input type="password" class="form-control" name="senha" placeholder="sua senha" id="senha"> </br>
+			
+			<p style="color:black"> <b> Opina: </b> </p>
+				<div class="form-group">
+					<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Deixe sua opinião ou sugestão para melhorarmos as aulas"></textarea>
+				  
+		</div>
+			</br>
+			<div class="d-grid gap-2 col-2 mx-auto">
+		<button type="button" class="btn btn-outline-primary" onclick="verificar()">CADASTRAR</button>	
+	</form>
+</div>
+</body>
+</html>
