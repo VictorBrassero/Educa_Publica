@@ -1,0 +1,12 @@
+body{
+    background-attachment: auto;
+    background: url("img/Fundo.jpeg") no-repeat
+    center center;
+    background-size: cover;
+    height: 92vh;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+
+}
