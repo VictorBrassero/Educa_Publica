@@ -6,10 +6,6 @@ escolasLocais {
     height: 92vh;
 }
 
-#linha-horizontal {
-    width: 400px;
-    border: 1px solid rgb(255, 0, 0);
-}
 /*Avaliaçoes*/
 
 body{
@@ -21,20 +17,102 @@ body{
 
 #login-container {
     background-color: rgb(172, 243, 228);
-    width: 750px;
-    height: 750px;
+    width: 700px;
+    height: 800px;
     margin-left: auto;
     margin-right: auto;
     padding: 20px 30px;
-    margin-top: 10vh;
+    margin-top: 7vh;
     border-radius: 10px;
-    color: rgb(43, 90, 82);
     }
 
-#linha-horizontal {
-        width: 400px;
-        border: 1px solid rgb(255, 0, 0);
+    p{
+        
+        color: rgb(37, 73, 87);
+        margin-right: 200px;
+        font-weight: bolder;
+        font-size: 30px;
+        word-wrap:normal;
+
     }
+
+    .top{
+        margin-top: 120px;
+    }
+
+    .top2{
+        margin-right: 360px;
+        
+    }
+
+    .top3{
+        margin-right: 330px;
+    }
+
+    .line{
+        font-size: 30px;
+        color: #314950;
+    }
+
+    h3{
+        color: rgb(84, 189, 250);
+    }
+
+    h4{
+        color: rgb(84, 189, 250);
+
+    }
+ 
+input[type="button"] {
+        width: 210px;
+        min-height: 30px;
+        font-weight: bold;
+        height: 40px;
+        margin-top: 380px;
+        color: rgb(255, 253, 253);
+        background-color: rgb(98, 142, 167);
+        border-radius: 125px;
+        border: none;
+        font-size: 20px;
+      }
+
+input[type="button"]:hover {
+        background-color: rgb(37, 73, 87);
+        transition: .5s;
+        color: #000000;
+        color: rgb(0, 0, 0);
+      }
+
+      .label-input {
+        display: flex;
+        align-items: center;
+        
+    background: hidden;
+    }
+
+        .container {
+            position: relative;
+            width: 100%;
+            margin-top: 22px;
+            display: flex;
+            grid-template-columns: 1fr 2fr;
+            grid-gap: 30px;
+            min-height: 50px;
+            
+        }
+        .container input{
+            height: 45px;
+            min-width: 300px;
+            border: none;
+            background-color: #ecf0f1;
+            min-height: 50px;
+            margin-left: 20px;
+            
+        }
+
+        .label-input::placeholder{
+            
+        }
 
 /*Fim Avaliações*/
 
@@ -63,3 +141,16 @@ sobre {
     background-size: cover;
     height: 92vh;
 }
+
+.ava{
+    margin-left: 280px;
+    margin-top: -75px;
+}
+
+hr{
+    background-color: #2c5358;
+    width: 500px;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
