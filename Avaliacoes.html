@@ -3,26 +3,53 @@
 <head>
     <meta charset='utf-8'>
     <title>Avaliações</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="MenuStyle.css">
     <link rel="stylesheet" type="text/css" media="screen" href="StyleHeader.css"> 
+
+
 </head>
 
 <body>
-
-<a href="Menu.html">
-    <button>Voltar</button>
-    </a> 
+    <div>
+        <header>
+            <nav>
+            <a class="logo" href="Menu.html">VLIR</a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+                </div>
+            <ul class="nav-list">
+                <li><a href="EscolasLocais.html">Escolas locais</a><li>
+                <li><a href="Avaliacoes.html">Avaliações</a><li>
+                <li><a href="Comunidade.html">Comunidade</a><li>
+                <li><a href="UltimasNoticias.html">Últimas Notícias</a><li> 
+                <li><a href="Sobre.html">Sobre</a><li>
+                <li><a href="Perfil.html">Perfil</a><li>       
+            </ul>     
+            </nav>   
+        </header>
+    </div>
 
 <div Id="login-container">
-    <h1>Deixe aqui o seu feedback sobre a escola.</h1>
-    <h3>Deixe nos saber sua opinião!</h3> 
+    <p class="top">Deixe aqui o seu feedback </p>
+    <p class="top2">Sobre escola.</p><br>
+    <h4 class="top3">Deixe nos saber sua opinião!</h4> 
 
-    <ul class="avaliacao">
-        <li class="star-icon ativo" data-avaliacao="1"></li>
-        <li class="star-icon" data-avaliacao="2"></li>
-        <li class="star-icon" data-avaliacao="3"></li>
-        <li class="star-icon" data-avaliacao="4"></li>
-        <li class="star-icon" data-avaliacao="5"></li>
-    </ul>
+    <div class="ava">
+        <ul class="avaliacao" >
+            <li class="star-icon ativo" data-avaliacao="1"></li>
+            <li class="star-icon" data-avaliacao="2"></li>
+            <li class="star-icon" data-avaliacao="3"></li>
+            <li class="star-icon" data-avaliacao="4"></li>
+            <li class="star-icon" data-avaliacao="5"></li>
+        </ul>
+    </div>
+   
+    <br><hr size= 4% align = center noshade hr size = 1 ><br>
+
+    <h3 class="line">Não sabe o que dizer? veja algumas sugestões de <br> 
+        feedbacks abaixo!</h3>
 
     <style>
          .avaliacao{
@@ -30,10 +57,10 @@
         }
         .star-icon {
             list-style-type: none;
-            border: 1px solid rgb(172, 243, 228);
+            border: 0px solid rgb(172, 243, 228);
             cursor: pointer;
             color: #ffffff;
-            font-size: 50px; /* alterar o tamanho das estrelas */
+            font-size: 40px; /* alterar o tamanho das estrelas */
         }
         .star-icon::before{
             content:"\2605";/*cheio*/
@@ -50,6 +77,7 @@
     </style>
 
     <script>
+
         var stars = document.querySelectorAll('.star-icon');
         
                 document.addEventListener('click', function(e){
@@ -63,9 +91,55 @@
           }
         });
 
-            </script>
+    </script>
 
-      </div>
+<!-- <div id="preencher"> </div> -->
 
+<div class="containerBox">
+ <container>
+    <div class="container">
+
+    <label class="label-input" for="">
+        <i class="far fa-user icon-modify"></i>
+        <input type="text" id="Nome" placeholder="Nome">
+    </label>
+    
+    <label class="label-input" for="">
+        <i class="far fa-envelope icon-modify"></i>
+        <input type="email" id="Email" placeholder="Email">
+    </label>
+
+    </div>
+</container>
+</div>
+  
+    <!-- <label class="label-input" for="">
+        <i class="fas fa-lock icon-modify"></i>
+        <input type="password" id="Senha" placeholder="Senha">
+    </label>
+
+    <form class="form">
+        <label class="label-input" for="">
+            <i class="far fa-user icon-modify"></i>
+            <input type="text" id="Nome" placeholder="Nome">
+        </label>
+        
+        <label class="label-input" for="">
+            <i class="far fa-envelope icon-modify"></i>
+            <input type="email" id="Email" placeholder="Email">
+        </label>
+        
+        <label class="label-input" for="">
+            <i class="fas fa-lock icon-modify"></i>
+            <input type="password" id="Senha" placeholder="Senha">
+        </label> -->
+    
+
+    <input type="button" value="Enviar">
+
+    </style>
+<br>
+<br>
+<br>
 </body>
 </html>
