@@ -12,7 +12,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #ecf0f1;
+    background-image: url("img/FundoLgCd.jpeg");
+    background-size: cover;
 }
 .content {
     background-color: #fff;
@@ -31,8 +32,6 @@ body {
     height: 100%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-
-
     left: 0;
 }
 .title {    
